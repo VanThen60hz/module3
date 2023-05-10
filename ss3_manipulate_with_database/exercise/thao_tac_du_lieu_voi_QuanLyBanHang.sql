@@ -17,8 +17,8 @@ VALUES
 (1,'May Giat',3),
 (2,'Tu Lanh',5),
 (3,'Dieu Hoa',7),
-(5,'Quat',1),
-(6,'Bep Dien',2);
+(4,'Quat',1),
+(5,'Bep Dien',2);
 
 
 
@@ -47,11 +47,18 @@ JOIN product p on od.product_ID = p.product_ID
 GROUP BY c.customer_Name, p.product_Name;
 
 -- Hiển thị tên những khách hàng không mua bất kỳ một sản phẩm nào
-SELECT c.customer_Name
-FROM customer c
-JOIN `order` o on c.customer_ID = o.customer_ID
-JOIN orderdetail od on o.order_ID = od.order_ID
-WHERE od.order_Quantity IS NULL;
+select * from customer 
+left join `order` using (customer_ID)
+where order_ID is null;
+
+select * from customer
+where customer_ID not in (select customer_ID from `order`);
+
+-- SELECT c.customer_Name
+-- FROM customer c
+-- JOIN `order` o on c.customer_ID = o.customer_ID
+-- JOIN orderdetail od on o.order_ID = od.order_ID
+-- WHERE od.order_Quantity IS NULL;
 -- Hiển thị mã hóa đơn, ngày bán và giá tiền của từng hóa đơn (giá một hóa đơn được tính bằng tổng giá bán của từng loại mặt hàng xuất hiện trong hóa đơn. Giá bán của từng loại được tính = odQTY*pPrice)
 
 SELECT o.order_ID,o.order_Date, SUM( od.order_Quantity * p.product_Price)
