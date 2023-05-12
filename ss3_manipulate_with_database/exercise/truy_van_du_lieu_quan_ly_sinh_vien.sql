@@ -11,4 +11,4 @@ SELECT s.StudentName, sub.SubName, m.Mark
 FROM subject sub 
 JOIN mark m ON sub.SubId = m.SubId
 JOIN student s ON s.StudentId = m.StudentId
-ORDER BY m.Mark DESC, s.StudentName ASC;
+ORDER BY m.Mark DESC, s.StudentName;

@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS quanlysinhvien;
 CREATE DATABASE QuanLySinhVien;
 USE QuanLySinhVien;
 

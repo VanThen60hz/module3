@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS QuanLyBanHang;
 CREATE DATABASE IF NOT EXISTS QuanLyBanHang;
 USE QuanLyBanHang;
 
@@ -5,7 +6,7 @@ CREATE TABLE Customer(
 	customer_ID int auto_increment PRIMARY KEY,
 	customer_Name varchar(50),
 	customer_Age int,
-	CHECK( Age > 0)
+	CHECK( customer_Age > 0)
 );
 
 CREATE TABLE `Order`(
@@ -22,11 +23,11 @@ CREATE TABLE Product(
 	product_Price DOUBLE
 );
 
-
 CREATE TABLE `OrderDetail`(
 	order_ID int,
 	product_ID int,
 	order_Quantity int,
 	FOREIGN KEY (order_ID) REFERENCES `Order`(order_ID),
-	FOREIGN KEY (product_ID) REFERENCES Product(product_ID)
+	FOREIGN KEY (product_ID) REFERENCES Product(product_ID),
+    primary key (order_ID, product_ID)
 );
