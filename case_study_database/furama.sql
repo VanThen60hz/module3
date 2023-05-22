@@ -219,11 +219,3 @@ VALUE(1,  2, 4, 5),
      (7, 1, 2, 2),
      (8, 12, 2, 2);
 SELECT * FROM hop_dong_chi_tiet;
-
-
-
-
-
-
-
-
