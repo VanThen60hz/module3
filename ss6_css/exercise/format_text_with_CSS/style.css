@@ -1,0 +1,24 @@
+:root{
+    --blue: blue;
+}
+
+.text-style{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+span{
+    color: var(--blue);
+}
+
+p{
+    padding: 0 2em;
+    text-indent: 2em;
+    text-align: justify;
+    font-size: 25px;
+}
+
+#dong-duong-color{
+    color: #2677c0;
+}
