@@ -1,0 +1,88 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+}
+
+header {
+    background-color: #4267B2;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    width: 100%;
+    background-color: white;
+    padding: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.main {
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.post-header h2 {
+    font-size: 16px;
+}
+
+.post-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #4267B2;
+}
