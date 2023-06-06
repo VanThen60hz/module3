@@ -5,8 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b63d42d-3c5b-4ae1-b724-ab576270c213" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CurrencyConverter/src/main/java/ConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo_jsp_servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/DemoDiscountCaculator/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../exercise/DemoDiscountCaculator/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_jsp_servlet/.idea/demo_jsp_servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../demo_jstl/.idea/demo_jstl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_jsp_servlet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/DemoDiscountCaculator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/DemoDiscountCaculator/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../exercise/display_customer_list/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../exercise/display_customer_list/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -137,6 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685532845551</updated>
       <workItem from="1685532847527" duration="306000" />
+      <workItem from="1685946786081" duration="197000" />
     </task>
     <servers />
   </component>

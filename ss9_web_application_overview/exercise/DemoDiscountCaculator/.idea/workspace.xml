@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95df52cb-7b74-470c-9080-e4bc42959721" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../DiscountCalculator/src/main/webapp/result.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/CurrencyConverter/src/main/java/ConverterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../practice/simple_dictionary/src/main/java/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/Calculator.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../demo_jsp_servlet/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/CustomerList/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_jsp_servlet/.idea/demo_jsp_servlet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../demo_jstl/.idea/demo_jstl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../demo_jsp_servlet/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss10_jsp&amp;jstl/exercise/Calculator/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../display_customer_list/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../display_customer_list/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../demo_jsp_servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo_jsp_servlet" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -163,8 +171,8 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.75" />
       <item itemvalue="Gradle.DemoDiscountCaculator [dependencies]" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.75" />
     </list>
     <recent_temporary>
       <list>
@@ -181,6 +189,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685643956640</updated>
       <workItem from="1685643958154" duration="2888000" />
+      <workItem from="1685946630103" duration="95000" />
     </task>
     <servers />
   </component>
@@ -197,5 +206,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

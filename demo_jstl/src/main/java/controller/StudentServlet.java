@@ -1,0 +1,80 @@
+package controller;
+
+import model.Student;
+import service.IStudentService;
+import service.impl.StudentService;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.annotation.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+@WebServlet(name = "controller.StudentServlet", value = "/student")
+public class StudentServlet extends HttpServlet {
+    private IStudentService studentService = new StudentService();
+
+    @Override
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if (action==null){
+            action ="";
+        }
+        switch (action){
+            case "add":
+                showAddForm(request,response);
+
+                break;
+            case "delete":
+                break;
+            default:
+                showList(request,response);
+        }
+    }
+
+    private void showAddForm(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        request.getRequestDispatcher("view/student/add.jsp").forward(request, response);
+    }
+
+    private void showList(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        List<Student> studentList = studentService.findAll();
+        request.setAttribute("studentList", studentList);
+        request.getRequestDispatcher("view/student/list.jsp").forward(request, response);
+    }
+
+    @Override
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String action = request.getParameter("action");
+        if (action==null){
+            action ="";
+        }
+        switch (action){
+            case "add":
+                save(request,response);
+                break;
+            case "delete":
+                break;
+            default:
+        }
+    }
+
+    private void save(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        int id = Integer.parseInt(request.getParameter("id"));
+        String name = request.getParameter("name");
+        boolean gender = Boolean.parseBoolean(request.getParameter("gender"));
+        float point = Float.parseFloat(request.getParameter("point"));
+        int classId = Integer.parseInt(request.getParameter("classId"));
+        Student student = new Student(id,name,gender,point,classId);
+        boolean check = studentService.add(student);
+        String mess ="Thêm mới thành công";
+        if (!check){
+            mess= "Thêm mới không thành công";
+            request.setAttribute("mess", mess);
+            showAddForm(request,response);
+        }
+        request.setAttribute("mess", mess);
+        showList(request,response);
+    }
+}
