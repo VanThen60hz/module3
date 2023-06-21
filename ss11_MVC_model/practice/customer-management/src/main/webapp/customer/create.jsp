@@ -15,6 +15,7 @@
             color: green;
         }
     </style>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
 </head>
 <body>
 <h1>Create new customer</h1>
@@ -24,14 +25,14 @@
     </c:if>
 </p>
 <p>
-    <a href="/customers">Back to customer list</a>
+    <a href="/customers" class="btn btn-info ms-1">Back to customer list</a>
 </p>
 
-<form action="post">
+<form action="create" method="post">
     <fieldset>
         <legend>Customer information</legend>
 
-        <table class="table table-bordered">
+        <table class="table-bordered">
             <tr>
                 <td>Name</td>
                 <td><input type="text" name="name" id="name"></td>
@@ -45,8 +46,7 @@
                 <td><input type="text" name="address" id="address"></td>
             </tr>
             <tr>
-                <td></td>
-                <td><input type="submit" value="Create customer"></td>
+                <td colspan="2"><input type="submit" value="Create customer"></td>
             </tr>
         </table>
     </fieldset>

@@ -9,13 +9,14 @@
 <html>
 <head>
     <title>View customer</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
 </head>
 <body>
 <h1>Customer detail</h1>
 <p>
-    <a href="/customers">Back to customer list</a>
+    <a href="/customers" class="btn btn-info ms-1">Back to customer list</a>
 </p>
-<table>
+<table class="table-bordered">
     <tr>
         <td>Name:</td>
         <td>${requestScope["customer"].getName()}</td>

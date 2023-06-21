@@ -127,7 +127,7 @@ public class CustomerServlet extends HttpServlet {
         Customer customer = new Customer(id,name,email,address);
         this.customerService.save(customer);
         request.setAttribute("message","New customer was created");
-        RequestDispatcher dispatcher =request.getRequestDispatcher("customer/crate.jsp");
+        RequestDispatcher dispatcher =request.getRequestDispatcher("customer/create.jsp");
         dispatcher.forward(request,response);
     }
 

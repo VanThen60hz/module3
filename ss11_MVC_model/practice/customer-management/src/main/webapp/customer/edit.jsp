@@ -10,6 +10,7 @@
 <html>
 <head>
     <title>Edit customer</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.css">
 </head>
 <body>
 <h1>Edit customer</h1>
@@ -19,16 +20,14 @@
     </c:if>
 </p>
 <p>
-    <a href="/customers">Back to customer list</a>
+    <a href="/customers" class="btn btn-info ms-1">Back to customer list</a>
 </p>
 <form method="post">
     <fieldset>
         <legend>Customer information</legend>
-        <table class="table table-bordered">
-            <tr>
-                <td>Name: </td>
-                <td><input type="text" name="name" id="name" value="${requestScope["customer"].getName()}"></td>
-            </tr>
+        <table class="table-bordered">
+            <input type="text" name="name" id="name" value="${requestScope["customer"].getName()}">
+
             <tr>
                 <td>Email: </td>
                 <td><input type="text" name="email" id="email" value="${requestScope["customer"].getEmail()}"></td>

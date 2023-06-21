@@ -1,0 +1,18 @@
+.product__header{
+    background-color: #f5f5f5;
+    color: #000000;
+    height:40px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.product{
+    margin: 5px;
+}
+
+.product,
+.product__header,
+.product__container,
+.product__list{
+    border: solid 1px #e2e5e9;
+}
