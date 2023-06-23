@@ -24,7 +24,6 @@ public class StudentRepository implements IStudentRepository {
            while (resultSet.next()){
                int id = resultSet.getInt("id");
                String name = resultSet.getString("name");
-               boolean gender =resultSet.getBoolean("gender");
                float point = resultSet.getFloat("point");
                int classId = resultSet.getInt("class_id");
                Student student = new Student(id,name,gender,point,classId);
